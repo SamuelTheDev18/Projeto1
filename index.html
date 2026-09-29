@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Finance_Calculator" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title> Calculadora de Finanças </title>
+</head>
+<body>
+    <div class = "espaco">
+
+    </div>
+    <div class = "espaco">
+
+    </div>
+    <div class = "menu">
+        <h1 class = "title"> Finance Calculator </h1>
+    </div>
+    <div class = "base">
+        <form action="">
+            <input type="text" id="Capital" name="Capital" class="pergunta" inputmode="decimal" placeholder="Digite o Capital (R$)">
+            
+            <input type="number" id="Juros" name="Juros" class="pergunta" step="1" inputmode="numeric" placeholder="Digite os Juros (%a.a)"> <br>
+                
+            <input type="number" id="Tempo" name="Tempo" class="pergunta" step="1" inputmode="numeric" placeholder="Digite o Tempo do Investimento (Anos)">
+            
+            <input type="text" id="valorMensal" name="valorMensal" class="pergunta" inputmode="decimal" placeholder="Digite o valor adicional mensal (R$)"> <br>
+            <br>
+            <button type="button" onclick="Test1()" class="button">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>

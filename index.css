@@ -1,0 +1,68 @@
+.base
+{
+height: 400px;
+width: 950px;
+background-color: beige;
+margin: 0 auto;
+border-radius: 0px 0px 25px 25px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.base form
+{
+width: fit-content;
+}
+.menu 
+{
+height: 100px;
+width: 950px;
+margin: 0 auto;
+background-color:chartreuse;
+border-radius: 25px 25px 0px 0px;
+text-align: center;
+align-items: center;
+}
+body
+{
+min-height: 100vh;
+margin: 0 ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: auto;
+background-image: url("Imagem de Dinheiro.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.espaco 
+{
+height: 10px;
+width: 100%;
+}
+.button 
+{
+    height: 100px;
+    width: 500px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+.pergunta 
+{
+    height: 80px;
+    width: 400px;
+    border-radius: 25px;
+    text-indent: 3ch;
+}
+.title
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
